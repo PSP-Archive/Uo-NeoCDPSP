@@ -1,0 +1,24 @@
+To build NEOCDPSP :
+
+* you'll need PSPSDK (I've used svn 690 for neocdpsp 0.5).
+* unzipped the source archive in a folder, for example E:\PSP\NEOCDPSPSRC
+* open your Cygwin bash
+* go in the previously created folder : cd /cygdrive/e/psp/neocdpspsrc
+* make
+
+* "make clean" to clean the obj.
+
+* warning : building in "-O4" seems to break something in zlib
+* warning : "c68kexec.c" can take a long time to compile
+
+* I've written a small "deploy.sh" based on stuff seen on ps2dev forums
+It's a KXPloit script which will send the EBOOT.PSP in the specified folder
+The PSP drive letter is hardcoded on first line of script (change it to your one).
+Usage : in NEOCDPSPSRC folder after a "make" 
+./deploy.sh <folder>, for ex. : ./deploy.sh neocdpsp
+it will send it in /PSP/GAME/NEOCDPSP & /PSP/GAME/NEOCDPSP~ (KXPloit)
+
+
+Happy coding!
+
+yoyofr

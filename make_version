@@ -1,0 +1,4 @@
+#!/bin/sh
+
+VERSION="NeoCDPSP v"`grep VERSION_STR src/psp/psp.h|sed 's/.*"\(.*\)"/\1/'`
+mksfo "$VERSION" PARAM.SFO

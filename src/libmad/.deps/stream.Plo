@@ -1,0 +1,41 @@
+stream.lo stream.o: stream.c config.h global.h /usr/include/stdlib.h \
+  /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+  /usr/include/machine/ieeefp.h /usr/include/cygwin/config.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stddef.h \
+  /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+  /usr/include/sys/lock.h /usr/include/machine/stdlib.h \
+  /usr/include/alloca.h bit.h stream.h
+
+config.h:
+
+global.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/_ansi.h:
+
+/usr/include/newlib.h:
+
+/usr/include/sys/config.h:
+
+/usr/include/machine/ieeefp.h:
+
+/usr/include/cygwin/config.h:
+
+/usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stddef.h:
+
+/usr/include/sys/reent.h:
+
+/usr/include/_ansi.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/sys/lock.h:
+
+/usr/include/machine/stdlib.h:
+
+/usr/include/alloca.h:
+
+bit.h:
+
+stream.h:
